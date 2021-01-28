@@ -14,12 +14,11 @@ def get_characters():
             hero = "Traveler_Anemo"
         elif hero == "Traveler (Geo)":
             hero = "Traveler_Geo"
-        char_list.append(hero)
+        char_list.append(hero.lower())
     return char_list
 
     
 characters = get_characters()
-characters = "Beidou"
 
 for character_name in characters:
     print(f"Translates {character_name} ... ")

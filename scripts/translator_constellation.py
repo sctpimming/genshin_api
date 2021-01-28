@@ -14,7 +14,7 @@ def get_characters():
             hero = "Traveler_Anemo"
         elif hero == "Traveler (Geo)":
             hero = "Traveler_Geo"
-        char_list.append(hero)
+        char_list.append(hero.lower())
     return char_list
 
     
